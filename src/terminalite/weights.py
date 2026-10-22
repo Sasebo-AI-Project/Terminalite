@@ -6,8 +6,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-# TODO: replace OWNER with the GitHub account or organisation before the first release.
-RELEASE_URL = "https://github.com/OWNER/terminalite/releases/download/v0.1.0/"
+RELEASE_URL = "https://github.com/Sasebo-AI-Project/Terminalite/releases/download/v0.1.0/"
 FILES = {
     "gru-copy-v1-13.npz": "8a9776e610da4f3aec3f4c5023d4021fb6f156ebb11eaa237358daa565d2d69d",
     "gru-rev-v1-12.npz": "be20122d610ea57f02d4d31ed085bd05801c78823dde09b69013c15f5f2140c5",

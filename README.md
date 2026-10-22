@@ -21,10 +21,10 @@ $ tl -n 3 "compress the reports directory into reports.tar.gz"
 Python 3.10 以上が必要。
 
 ```console
-pip install git+https://github.com/OWNER/terminalite
+pip install git+https://github.com/Sasebo-AI-Project/Terminalite
 ```
 
-[uv](https://docs.astral.sh/uv/) を使う場合は `uv tool install git+https://github.com/OWNER/terminalite`。
+[uv](https://docs.astral.sh/uv/) を使う場合は `uv tool install git+https://github.com/Sasebo-AI-Project/Terminalite`。
 
 初回の実行で重み（約 79 MB）を GitHub Releases からダウンロードし、ハッシュを照合して次の場所に保存する。
 
@@ -74,5 +74,5 @@ GRU のエンコーダ・デコーダ（注意機構とコピー機構付き）�
 
 Terminalite suggests one bash command for a natural-language request in English or Japanese. It runs on CPU
 only (two GRU models, 5.78M non-embedding parameters each; about 0.1–0.2 s per request) and never executes
-the command. Install with `pip install git+https://github.com/OWNER/terminalite`, then run `tl "your request"`.
+the command. Install with `pip install git+https://github.com/Sasebo-AI-Project/Terminalite`, then run `tl "your request"`.
 The weights (about 79 MB) are downloaded on first use. Always read a suggested command before running it.
